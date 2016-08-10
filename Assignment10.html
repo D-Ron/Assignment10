@@ -1,0 +1,240 @@
+<!doctype html>
+
+<html lang="en">
+    
+    <head>
+        <meta charset="utf-8" />
+        <title>Assignment 10</title>
+          
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>  
+        
+        
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">        
+    </head>
+    
+    <body>
+        
+        
+<!-- Page 1 end -->          
+        <div id='home' data-role='page' data-theme='b'>
+            
+            <style type="text/css">
+
+            header{
+            background-image:url("images/working.jpg");
+            background-position: 30% 20%;                
+            }     
+            
+            /*   
+            header h2 {
+                    background: black;
+            }                
+            */ 
+
+             /*                 
+            .ui-page {
+                background: steelblue;
+                color: lightgreen;
+            }
+             */ 
+                
+                
+           .ui-header {
+               background-color: white !important;   /*  #112233   tomato  */
+                margin:0 auto;
+                padding:0%;
+            }    
+                
+  
+                
+           .ui-navbar {
+                    background: tomato !important;
+                    /* margin-top: 5% ; */
+            }                     
+                
+           .ui-navbar ul li a {
+                    background:tomato !important;
+            }                
+
+                
+            .productAd   {
+                width:100%;
+                padding-top:5%;
+                }
+                
+            .productAdHeader   {
+                width:30%;    /* */
+                
+                margin:0 auto;
+                display:block;
+                padding:0%;
+                }                
+                    
+                
+            </style>
+                    
+                <header data-role='header'>
+                     <h2>Welcome</h2>                     
+                    <img class= 'productAdHeader' src='images/logo.png' />   
+                </header>
+            
+                    <div data-role="navbar">
+                     
+                        <ul>
+                            <li><a href='#home' class='ui-btn ui-icon-home ui-btn-icon-top'> Home </a></li>  
+                            <li><a href='#solutions' class='ui-btn ui-icon-shop ui-btn-icon-top'> Solutions </a></li>    
+                            <li><a href='#contact' class='ui-btn ui-icon-mail ui-btn-icon-top'> Contact </a></li>    
+                        </ul>
+                    </div>  
+
+
+                <article role='main' class='ui-content'>  
+                    <h3>Welcome</h3>
+                        <p>With innovative approaches and advanced methodologies, Vecta Corporation provides scalable business solutions to help companies achieve success through revenue increase, cost management, and user satisfaction. Our approach stems from the three most important business growth aspects: helping companies reach prospects, assist in converting prospects to customers, and assist in retaining those customers. This is accomplished through our interactive solutions and expertise in providing a memorable and positive user experience.</p><br />
+
+                    
+                    <div data-role='collapsible-set'>
+                        <div data-role='collapsible'>
+                        <h4>Client Testimonials</h4>
+
+                        <p>Throughout the years we have worked with Vecta Corporation, we have always been amazed at the level of dedication and professionalism that they have provided us and our WGDC products. It is this commitment that has increased both our income and exposure exponentially.</p> 
+
+                        Iona Ford<br />
+                        President<br />
+                        Chevy Dealers Association<br /><br />
+
+                        <p>Incredible results from an incredible effort by the Vecta Corporation team! We are very pleased with the business benefits we have received by working with them.</p>
+
+                        Robin Banks<br />
+                        CEO<br />
+                        Profits Financial, Inc. <br />
+                        </div> <!--  close collasible content div -->
+                    </div> <!-- close collapsible set Client Testimonials -->    
+                </article>
+
+
+                <footer data-role='footer' data-id='myfooter' data-position='fixed'> <!--  data-position='fixed' -->
+                    <h2>Footer page content</h2>
+                </footer>
+            <!-- -The styling that's implemented are from the css from jquery mobile -->
+        </div>
+<!-- Page 1 end -->    
+   
+        
+        
+        
+        
+        
+        
+        
+        
+        
+<!-- Page 2 start -->      
+           <div id='solutions' data-role='page' data-theme='b'>
+                <header data-role='header'>
+                     <h2>Solution</h2>                    
+                    <img class= 'productAdHeader' src='images/logo.png' />                     
+                </header>
+                    <div data-role="navbar">
+                        <ul>
+                            <li><a href='#home' class='ui-btn ui-icon-home ui-btn-icon-top'> Home </a></li>  
+                            <li><a href='#solutions' class='ui-btn ui-icon-shop ui-btn-icon-top'> Solutions </a></li>    
+                            <li><a href='#contact' class='ui-btn ui-icon-mail ui-btn-icon-top'> Contact </a></li>    
+                        </ul>
+                    </div>  
+
+
+<article role='main' class='ui-content'>     
+        <ul data-role="listview">
+            <li><a href='vProspect.html' rel="external">       
+                <h4>vProspect 2.0</h4>  
+                 <p style="white-space:normal">Define and research your target audience, define your strategy to reach that audience and present a strong and memorable brand to that audience.</p></a>
+            </li>
+            
+                            
+            <li> <a href='vConvert.html' rel="external">          
+                <h4>vConvert 2.0</h4>  
+                <p style="white-space:normal">Create a highly user-friendly and easy-to-navigate information architecture that will help your prospects interact with the company on a highly interactive level.</p></a>
+            </li>
+            
+            <li> <a href='vRetain.html' rel="external">  
+                <h4>vRetain 1.0</h4>
+                <p style="white-space:normal">Build on existing customer relationships to improve productivity and maximize customer loyalty, while growing revenues.</p></a>
+            </li>
+        </ul>    
+</article>               
+                <footer data-role='footer' data-id='myfooter' data-position='fixed'> <!--  data-position='fixed' -->
+                    <h2>Footer page content</h2>
+                </footer>
+        </div> <!-- close id='solutions' -->             
+               
+<!-- Page 2 end -->      
+               
+               
+        
+        
+        
+        
+<!-- Page 3 start -->    
+           <div id='contact' data-role='page' data-theme='b'> <!-- Need a form text, email, comment-->
+               
+               
+                <header data-role='header'>
+                     <h2>Contact</h2>                    
+                    <img class= 'productAdHeader' src='images/logo.png' />                     
+                </header>
+                     <div data-role="navbar">
+                        <ul>
+                            <li><a href='#home' class='ui-btn ui-icon-home ui-btn-icon-top'> Home </a></li>  
+                            <li><a href='#solutions' class='ui-btn ui-icon-shop ui-btn-icon-top'> Solutions </a></li>    
+                            <li><a href='#contact' class='ui-btn ui-icon-mail ui-btn-icon-top'> Contact </a></li>    
+                        </ul>
+                    </div>
+<article role='main' class='ui-content'>                
+                            <form>
+                            <fieldset class="ui-field-contain" data-type="horizontal"  style="width:70%" > <!-- class="ui-field-contain" -->
+                                   <label for="name">Name:</label>
+                                   <input type="text" name="name" id="name" value="" />   
+                                
+
+                                   <label for="email" >Email:</label>
+                                   <input type="email" name="email" id="email" value="" /> 
+                                
+                           </fieldset>      
+                             
+                                
+                                
+                            <div class="ui-field-contain" style="width:100%" > <!-- id='contact-background' -->
+                                <label for="select-native-1">Product Interest:</label>
+                                <select name="select-native-1" id="select-native-1">
+                                    <option value="vProspect">vProspect 2.0</option>
+                                    <option value="vConvert">vConvert 2.0</option>
+                                    <option value="vRetain">vRetain 1.0</option>
+                                </select>
+                            </div>
+                                
+                            <div class="ui-field-contain"> <!-- id='contact-background' -->
+                               <label for="details">Tell us about yourself</label>
+                               <textarea id="details"></textarea>
+                           </div>
+                                <fieldset data-role="controlgroup" data-type="horizontal">
+                                    <input type="submit" value="Submit Button" />    
+                                    <!-- <input type="reset" value="Reset Button" /> -->
+                                </fieldset>                                    
+                            </form>                                                                    
+</article>
+                <footer data-role='footer' data-id='myfooter' data-position='fixed'> <!--  data-position='fixed' -->
+                    <h2>Footer page content</h2>
+                </footer>
+            </div>
+<!-- Page 3 end -->           
+            
+   
+   <!-- Note - Use Themeroller to design the page. add icons etc. -->
+    
+    </body>
+    
+</html>
